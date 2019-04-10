@@ -16,3 +16,5 @@ In order to use it:
 } 
 ```
 + Create a cronjob with the main.py file and get notified.
+
+The project's logic is based on previous hash vs new hash comparison, so this code works only with static websites.
