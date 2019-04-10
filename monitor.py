@@ -1,5 +1,5 @@
 import hashlib
-import urllib2
+import urllib.request
 
 class monitor():
 
@@ -8,7 +8,7 @@ class monitor():
         self.telegram_bot = bot
 
     def get_hash(self):        
-        response = urllib2.urlopen(self.url)
+        response = urllib.request.urlopen(self.url)
         content = response.read()
         return hashlib.sha224(content).hexdigest()
 
