@@ -2,6 +2,7 @@ from monitor import monitor
 from bot import bot
 import json
 
+# In order to get the chat_id you can use the following link.
 # https://api.telegram.org/bot<Token>/getUpdates
 
 def main():
